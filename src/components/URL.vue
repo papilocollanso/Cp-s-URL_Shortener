@@ -41,7 +41,8 @@
 <script>
 import 'dotenv';
 
-
+// eslint-disable-next-line no-unused-vars
+import { clipboard } from 'vue-clipboards';
 
     export default {
         name: "URL",
